@@ -1,0 +1,55 @@
+.empty-state {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.empty-state p {
+  margin: 0.5rem 0;
+}
+
+.conversation-item {
+  padding: 1.5rem 0;
+}
+
+.conversation-item:not(:last-child) {
+  border-bottom: 1px solid var(--p-border-subdued);
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.user-message {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: var(--p-surface-subdued);
+  border-radius: 8px;
+}
+
+.athena-response {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.response-section {
+  padding: 1rem;
+  border-left: 3px solid var(--p-border);
+  margin-bottom: 1rem;
+}
+
+.response-section.insight {
+  background-color: var(--p-surface-info-subdued);
+  border-left-color: var(--p-border-info);
+}
+
+.response-section.explanation {
+  background-color: var(--p-surface-subdued);
+  border-left-color: var(--p-border);
+}
+
+.response-section.action {
+  background-color: var(--p-surface-success-subdued);
+  border-left-color: var(--p-border-success);
+}
+
+.response-section:last-child {
+  margin-bottom: 0;
+}
